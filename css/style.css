@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main start */
+main {
+  background-image: url(../assets/image/12938.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+main video {
+  opacity: 0.5;
+}
+form {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  width: 40%;
+  color: #fff;
+}
+form fieldset {
+  padding: 20px;
+  transition: box-shadow 0.3s;
+  opacity: 0.5;
+}
+form fieldset:hover {
+  box-shadow: 0px -1px 48px -7px sandybrown;
+  -webkit-box-shadow: 0px -1px 48px -7px sandybrown;
+  -moz-box-shadow: 0px -1px 48px -7px sandybrown;
+  opacity: 1;
+}
+form label {
+  font-size: 20px;
+  transition: color 0.3s;
+}
+form label:hover {
+  color: sandybrown;
+}
+form input {
+  margin-left: 10px;
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+}
+form input:last-child {
+  border: none;
+  width: 150px;
+  border-radius: 50px;
+  background-color: rgb(28, 122, 160);
+  color: #fff;
+}
+form input:last-child:hover {
+  background-color: rgb(43, 226, 168);
+  color: rgb(255, 255, 255);
+}
+/* Main end */

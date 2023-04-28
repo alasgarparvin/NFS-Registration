@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/image/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Need For Speed</title>
+</head>
+
+<body>
+    <!-- Main start -->
+    <main>
+        <video src="./assets/video/videoplayback.mp4" width="100%" autoplay></video>
+        <div class="container">
+            <audio src="./assets/sound/Need For Speed Underground Theme Song.mp3" autoplay></audio>
+            <form>
+                <fieldset>
+                    <legend>NFS registration:</legend>
+                    <label for="nm">Enter your name:</label>
+                    <input type="text" id="nm" name="name" required><br><br>
+                    <label for="snm">Enter your surname:</label>
+                    <input type="text" id="snm" name="surname" required><br><br>
+                    <label for="nck">Enter nick name:</label>
+                    <input type="text" id="nck" name="nick_name" required><br><br>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="Birthday">Birthday:</label>
+                    <input type="date" id="Birthday" name="Birthday" required><br><br>
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="password" required><br><br>
+                    <label for="prf_pic">Profile picture:</label>
+                    <input type="file" id="prf_pic" name="profil_picture" required><br><br>
+                    <label>Language</label>
+                    <select>
+                        <option>Azerbaijan</option>
+                        <option>English</option>
+                        <option>Russian</option>
+                        <option>Turkey</option>
+                    </select>
+                    <input type="submit" value="Registration">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <!-- Main end -->
+</body>
+
+</html>
